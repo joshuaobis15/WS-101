@@ -1,2 +1,2 @@
-# WS-101
+# Lab1[ObisJoshua]
 This is where i posts my actlivities in school
