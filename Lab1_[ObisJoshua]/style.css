@@ -1,0 +1,59 @@
+body {
+  background-image: url("backgroundd.png"); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  font-family:
+  Arial, sans-serif; 
+  padding: 20px; 
+}
+
+h1,
+h2,
+p {
+  color: #ffffff; 
+  text-align: center; 
+}
+
+p {
+  margin-bottom: 20px; 
+}
+
+.img-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.img-card {
+  position: relative; 
+  display: inline-block; 
+  overflow: hidden; 
+
+.img-card img {
+  width: 180px; 
+  height: 270px; 
+  border: 1px solid #ffffff; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.img-card:hover img {
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.747); 
+}
+
+.img-card .name {
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  width: 100%; 
+  text-align: center; 
+  color: white; 
+  background: rgba(0, 0, 0, 0.7); 
+  padding: 10px 0; 
+  transform: translateY(100%); 
+  
+}
+
+.img-card:hover .name {
+  transform: translateY(0); 
+}
