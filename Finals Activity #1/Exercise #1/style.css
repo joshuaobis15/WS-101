@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links ul li a:hover {
+  background-color: #ddd;
+}
+
+main {
+  padding: 20px;
+}
+
+#about {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#about img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#skill {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+#skill table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#skill table th,
+#skill table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #b1b1b1;
+}
+td {
+  background-color: #cfcfcf;
+}
+
+#contact {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  margin-bottom: 10px;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+#contact ul li a:hover {
+  background-color: #ddd;
+}
