@@ -9,15 +9,10 @@
 
 <body>
     <?php
-    $a = 23;
-    $b = 15;
-
-    echo "Addition: " . ($a + $b) . "<br>";
-    echo "Subtraction: " . ($a - $b) . "<br>";
-    echo "Multiplication: " . ($a * $b) . "<br>";
-    echo "Division: " . ($a / $b);
+    $name = "Ana";
+    $age = 18;
+    echo $age;
     ?>
-
 </body>
 
 </html>
